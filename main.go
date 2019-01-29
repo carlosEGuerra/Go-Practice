@@ -7,8 +7,6 @@ import (
 	"github.com/tensorflow/tensorflow/tensorflow/go/op"
 )
 
-var helloWorld string = "Hello World"
-
 func main() {
 	// Construct a graph with an operation that produces a string constant.
 	s := op.NewScope()
